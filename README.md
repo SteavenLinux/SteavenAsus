@@ -1,7 +1,12 @@
-# SteavenAsus
-SteavenLinux Asus Laptops Configrations to get Asus laptops fully working on linux.
+# SteavenAsus: Optimized Configurations for Asus Laptops on Linux
+
+SteavenAsus provides configurations to get Asus laptops fully functional on Linux.
+
+---
 
 ## ROG Strix G512LI_G512LI
 
-Installs asusctl and rog-control-center
-setups tuned to work with asusctl
+- Installs `asusctl` and `rog-control-center`.
+- Sets up `tuned` to work with `asusctl`.
+
+--- 
