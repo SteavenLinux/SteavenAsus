@@ -11,7 +11,7 @@ if [[ "$CURRENT_MODEL" == "ROG Strix G512LI_G512LI" ]]; then
     sudo pacman -Rns tuned tuned-ppd
     sudo rm -rf /etc/tuned
     sudo pacman -S tuned tuned-ppd
-    sudo systemctl enable --now tuned tuned-ppd
+    sudo systemctl enable tuned tuned-ppd
     sudo cp -r etc/* /etc
     sudo systemctl restart tuned tuned-ppd
 else
