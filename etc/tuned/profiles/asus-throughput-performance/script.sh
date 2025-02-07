@@ -6,7 +6,7 @@ CURRENT_MODEL=$(cat /sys/class/dmi/id/product_name)
 # Check if the model matches the intended one
 if [[ "$CURRENT_MODEL" == "ROG Strix G512LI_G512LI" ]]; then
     echo "Running script on $CURRENT_MODEL..."
-    asusctl led-mode rainbow-cycle
+    asusctl aura rainbow-cycle
     asusctl -k high
     asusctl profile -P Performance
 else
